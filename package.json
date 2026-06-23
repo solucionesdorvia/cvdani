@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -H 0.0.0.0",
     "lint": "eslint",
     "reel:studio": "remotion studio src/remotion/index.ts",
     "reel:render": "remotion render src/remotion/index.ts Showreel public/reel --sequence --image-format=jpeg && node scripts/reel-manifest.mjs"
